@@ -1,0 +1,27 @@
+version: 2
+updates:
+- package-ecosystem: pip
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: pytest
+    versions:
+    - ">= 0"
+  - dependency-name: setuptools
+    versions:
+    - ">= 0"
+  - dependency-name: twine
+    versions:
+    - ">= 0"
+  - dependency-name: wheel
+    versions:
+    - ">= 0"
+  - dependency-name: lbt-honeybee
+    versions:
+    - 0.4.8
+    - 0.4.9
+  - dependency-name: pollination-dsl
+    versions:
+    - 0.10.0
