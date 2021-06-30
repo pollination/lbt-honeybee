@@ -1,4 +1,4 @@
-# Pollination lbt-honeybee plugin
+# Pollination lbt-honeybee
 
 The lbt-honeybee plugin provides access to the honeybee-core library and all all
 honeybee extensions simultaneously. This includes:
@@ -6,7 +6,8 @@ honeybee extensions simultaneously. This includes:
 * honeybee-energy
 * honeybee-radiance
 
-Note that the plugin does not include any simulation engines and only Python libraries.
+Note that the plugin does not include any simulation engines and it only contains
+the Python libraries.
 
 ## Sources
 
