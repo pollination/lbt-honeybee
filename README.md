@@ -1,6 +1,6 @@
 # Pollination lbt-honeybee
 
-The lbt-honeybee plugin provides access to the honeybee-core library and all all
+The lbt-honeybee plugin provides access to the honeybee-core library and all
 honeybee extensions simultaneously. This includes:
 
 * honeybee-energy
