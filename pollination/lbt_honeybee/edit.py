@@ -18,6 +18,14 @@ class ModelModifiersFromConstructions(Function):
         spec={'type': 'string', 'enum': ['solar', 'visible']}
     )
 
+    dynamic_behavior = Inputs.str(
+        description='A switch to note whether dynamic window constructions and '
+        'window constructions with blinds/shades should be translated to dynamic '
+        'aperture groups or just the static (bare) construction should be used.',
+        default='dynamic',
+        spec={'type': 'string', 'enum': ['dynamic', 'static']}
+    )
+
     exterior_offset = Inputs.float(
         description='A number for the distance at which the exterior Room faces should '
         'be offset in meters. This is used to account for the fact that the exterior '
@@ -29,8 +37,8 @@ class ModelModifiersFromConstructions(Function):
     @command
     def model_modifiers_from_constructions(self):
         return 'honeybee-energy edit modifiers-from-constructions model.hbjson ' \
-        '--{{self.use_visible}} --exterior-offset {{self.exterior_offset}} ' \
-        '--output-file new_model.hbjson'
+            '--{{self.use_visible}} --{{self.dynamic_behavior}}-groups ' \
+            '--exterior-offset {{self.exterior_offset}} --output-file new_model.hbjson'
 
     new_model = Outputs.file(
         description='Model JSON with its Radiance modifiers assigned based on its '
