@@ -11,9 +11,9 @@ the Python libraries.
 
 ## Sources
 
-- `lbt-honeybee` Python package. [PyPI](https://pypi.org/project/lbt-honeybee/), [source](https://github.com/ladybug-tools/lbt-honeybee)
+* `lbt-honeybee` Python package. [PyPI](https://pypi.org/project/lbt-honeybee/), [source](https://github.com/ladybug-tools/lbt-honeybee)
 
 This package includes the following extensions for honeybee:
 
-- `honeybee-radiance` Python package. [PyPI](https://pypi.org/project/honeybee-radiance/), [source](https://github.com/ladybug-tools/honeybee-radiance)
-- `honeybee-energy` Python package. [PyPI](https://pypi.org/project/honeybee-energy/), [source](https://github.com/ladybug-tools/honeybee-energy)
+* `honeybee-radiance` Python package. [PyPI](https://pypi.org/project/honeybee-radiance/), [source](https://github.com/ladybug-tools/honeybee-radiance)
+* `honeybee-energy` Python package. [PyPI](https://pypi.org/project/honeybee-energy/), [source](https://github.com/ladybug-tools/honeybee-energy)
