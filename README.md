@@ -6,7 +6,7 @@ honeybee extensions simultaneously. This includes:
 * honeybee-energy
 * honeybee-radiance
 
-Note that the plugin does not include any simulation engines and it only contains
+Note that the plugin does not include any simulation engines and only contains
 the Python libraries.
 
 ## Sources
