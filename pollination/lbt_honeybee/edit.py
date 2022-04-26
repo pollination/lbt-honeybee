@@ -4,7 +4,13 @@ from pollination_dsl.function import Inputs, Outputs, Function, command
 
 @dataclass
 class ModelModifiersFromConstructions(Function):
-    """Assign honeybee Radiance modifiers based on energy construction properties."""
+    """Assign honeybee Radiance modifiers based on energy construction properties.
+
+    This includes matching properties for reflectance, absorptance and transmission.
+    Furthermore, any dynamic window constructions can be translated to dynamic
+    Radiance groups and shade transmittance schedules will be translated to
+    dynamic shade groups.
+    """
 
     model = Inputs.file(
         description='Honeybee model in JSON format.', path='model.hbjson',
