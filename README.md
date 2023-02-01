@@ -17,3 +17,4 @@ This package includes the following extensions for honeybee:
 
 * `honeybee-radiance` Python package. [PyPI](https://pypi.org/project/honeybee-radiance/), [source](https://github.com/ladybug-tools/honeybee-radiance)
 * `honeybee-energy` Python package. [PyPI](https://pypi.org/project/honeybee-energy/), [source](https://github.com/ladybug-tools/honeybee-energy)
+* `honeybee-display` Python package. [PyPI](https://pypi.org/project/honeybee-display/), [source](https://github.com/ladybug-tools/honeybee-display)
