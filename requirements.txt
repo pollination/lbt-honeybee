@@ -1,2 +1,2 @@
 pollination-dsl==0.14.1
-lbt-honeybee==0.7.324
+lbt-honeybee==0.7.325
