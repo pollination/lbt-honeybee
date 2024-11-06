@@ -7,7 +7,7 @@ class Breeam4b(Function):
     """Calculate credits for BREEAM 4b."""
 
     folder = Inputs.folder(
-        description='This folder is an output folder of annual daylight recipe. Folder '
+        description='Path to an output folder of an annual daylight recipe. Folder '
         'should include grids_info.json and sun-up-hours.txt. The command uses the list '
         'in grids_info.json to find the result files for each sensor grid.',
         path='results'
